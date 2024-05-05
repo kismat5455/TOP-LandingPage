@@ -163,7 +163,7 @@ img .rightPart {
     font-weight: bolder;
     color: #1F2937;
     background-color: #E5E7EB;
-    height: 150px;
+    height: 200px;
     font-style: italic;
     text-align: center;
     display: flex;
@@ -185,5 +185,74 @@ img .rightPart {
     justify-content: flex-end;
     width: 100%;
 
+
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+    height: 150px;
+    padding: 40px;
+}
+
+#box {
+    border: 2px solid blue;
+    border-radius: 20px;
+    max-width: 2100px;
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+    background: #3882f6;
+}
+
+.head1Right {
+    display: flex;
+    color: black;
+    font-size: 18px;
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+
+
+}
+
+#head1p {
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 0;
+
+}
+
+#head1pp {
+    margin: 0;
+}
+
+#head1Left {
+    display: flex;
+    margin: 0;
+}
+
+#head1Left button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-weight: bolder;
+}
+
+#head1Left button:hover {
+    background-color: #04AA6D;
+}
+
+footer {
+    text-align: center;
 
 }
