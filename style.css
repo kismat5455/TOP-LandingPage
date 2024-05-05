@@ -16,6 +16,8 @@ body {
     background-color: #1f2937;
     color: #F9FAF8;
     box-sizing: border-box;
+    /* width: 100%; */
+    flex-wrap: wrap;
 }
 
 
@@ -23,6 +25,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 
 }
 
@@ -56,12 +59,12 @@ body {
 
 }
 
-.rightPart {
+img .rightPart {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 
-    ;
+
 
 }
 
@@ -96,5 +99,61 @@ body {
 
 #section-1-container-3:hover {
     background-color: #04AA6D;
+
+}
+
+#section6 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+
+
+.body-1-container-2 {
+    display: flex;
+    gap: 52px;
+
+
+
+}
+
+#body-1-container-6 {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+
+#body-1-container-3 {
+    color: black;
+    font-size: 18px;
+    max-width: 200px;
+
+}
+
+
+#body-1-container-3 img {
+    padding: 40px 60px;
+
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 20px;
+    font-weight: bolder;
+
+}
+
+
+
+#body-1-container-1 {
+    color: black;
+
+    font-weight: bolder;
+    font-size: 36px;
+    margin-bottom: 50px;
 
 }
